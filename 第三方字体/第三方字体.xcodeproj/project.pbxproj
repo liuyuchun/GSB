@@ -14,6 +14,7 @@
 		00B2F286230BCCEF00B0DEDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B2F284230BCCEF00B0DEDE /* LaunchScreen.storyboard */; };
 		00B2F289230BCCEF00B0DEDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B2F288230BCCEF00B0DEDE /* main.m */; };
 		00B2F292230BD24100B0DEDE /* message.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00B2F28F230BCD5F00B0DEDE /* message.ttf */; };
+		00C4682924E27598008BBBFE /* masterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C4682824E27598008BBBFE /* masterModel.m */; };
 		D07B721128CD06B5E5842438 /* libPods-第三方字体.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FA56F51F037C641744215C /* libPods-第三方字体.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,8 @@
 		00B2F287230BCCEF00B0DEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00B2F288230BCCEF00B0DEDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00B2F28F230BCD5F00B0DEDE /* message.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = message.ttf; sourceTree = "<group>"; };
+		00C4682724E27598008BBBFE /* masterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = masterModel.h; sourceTree = "<group>"; };
+		00C4682824E27598008BBBFE /* masterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = masterModel.m; sourceTree = "<group>"; };
 		09AFB36AC1B4CAE4C29CFB87 /* Pods-第三方字体.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-第三方字体.release.xcconfig"; path = "Target Support Files/Pods-第三方字体/Pods-第三方字体.release.xcconfig"; sourceTree = "<group>"; };
 		9729CE94E10E2CBAB7D23090 /* Pods-第三方字体.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-第三方字体.debug.xcconfig"; path = "Target Support Files/Pods-第三方字体/Pods-第三方字体.debug.xcconfig"; sourceTree = "<group>"; };
 		B2FA56F51F037C641744215C /* libPods-第三方字体.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-第三方字体.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +80,8 @@
 				00B2F284230BCCEF00B0DEDE /* LaunchScreen.storyboard */,
 				00B2F287230BCCEF00B0DEDE /* Info.plist */,
 				00B2F288230BCCEF00B0DEDE /* main.m */,
+				00C4682724E27598008BBBFE /* masterModel.h */,
+				00C4682824E27598008BBBFE /* masterModel.m */,
 			);
 			path = "第三方字体";
 			sourceTree = "<group>";
@@ -87,7 +92,6 @@
 				9729CE94E10E2CBAB7D23090 /* Pods-第三方字体.debug.xcconfig */,
 				09AFB36AC1B4CAE4C29CFB87 /* Pods-第三方字体.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -197,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00B2F27E230BCCED00B0DEDE /* ViewController.m in Sources */,
+				00C4682924E27598008BBBFE /* masterModel.m in Sources */,
 				00B2F289230BCCEF00B0DEDE /* main.m in Sources */,
 				00B2F27B230BCCED00B0DEDE /* AppDelegate.m in Sources */,
 			);
