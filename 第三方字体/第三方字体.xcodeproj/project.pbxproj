@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00A6BE4E24E29C35001335C1 /* firstModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6BE4D24E29C35001335C1 /* firstModel.m */; };
+		00A6BE5124E2A3E7001335C1 /* SecondModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6BE5024E2A3E7001335C1 /* SecondModel.m */; };
 		00B2F27B230BCCED00B0DEDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B2F27A230BCCED00B0DEDE /* AppDelegate.m */; };
 		00B2F27E230BCCED00B0DEDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B2F27D230BCCED00B0DEDE /* ViewController.m */; };
 		00B2F281230BCCED00B0DEDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B2F27F230BCCED00B0DEDE /* Main.storyboard */; };
@@ -21,6 +22,8 @@
 /* Begin PBXFileReference section */
 		00A6BE4C24E29C35001335C1 /* firstModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = firstModel.h; sourceTree = "<group>"; };
 		00A6BE4D24E29C35001335C1 /* firstModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstModel.m; sourceTree = "<group>"; };
+		00A6BE4F24E2A3E7001335C1 /* SecondModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondModel.h; sourceTree = "<group>"; };
+		00A6BE5024E2A3E7001335C1 /* SecondModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondModel.m; sourceTree = "<group>"; };
 		00B2F276230BCCED00B0DEDE /* 第三方字体.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "第三方字体.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00B2F279230BCCED00B0DEDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		00B2F27A230BCCED00B0DEDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -82,6 +85,8 @@
 				00B2F288230BCCEF00B0DEDE /* main.m */,
 				00A6BE4C24E29C35001335C1 /* firstModel.h */,
 				00A6BE4D24E29C35001335C1 /* firstModel.m */,
+				00A6BE4F24E2A3E7001335C1 /* SecondModel.h */,
+				00A6BE5024E2A3E7001335C1 /* SecondModel.m */,
 			);
 			path = "第三方字体";
 			sourceTree = "<group>";
@@ -200,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A6BE5124E2A3E7001335C1 /* SecondModel.m in Sources */,
 				00A6BE4E24E29C35001335C1 /* firstModel.m in Sources */,
 				00B2F27E230BCCED00B0DEDE /* ViewController.m in Sources */,
 				00B2F289230BCCEF00B0DEDE /* main.m in Sources */,
